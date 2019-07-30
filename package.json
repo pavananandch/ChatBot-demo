@@ -1,0 +1,30 @@
+{
+  "name": "agent-backend",
+  "version": "1.0.0",
+  "description": "agent escalation portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavananand1996/homedepot-agent.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavananand1996/homedepot-agent/issues"
+  },
+  "homepage": "https://github.com/pavananand1996/homedepot-agent#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cfenv": "^1.2.2",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "socket.io": "^2.2.0"
+  },
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.9.0"
+  }
+}
